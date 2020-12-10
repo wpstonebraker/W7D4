@@ -19,12 +19,12 @@ span {
 }
 
 .fa-cog:hover {
-	background-color: $light-gray;
+	background-color: $lightest-gray;
 	border-radius: 3px;
 }
 
 nav.left-nav li:hover {
-	background-color: $light-gray;
+	background-color: $lightest-gray;
 	border-radius: 3px;
 }
 
@@ -32,8 +32,9 @@ nav.left-nav li:hover {
 // 	background-color: $light-gray;
 // }
 
-// .left-nav span:hover {
-// 	background-color: $light-gray;
+// .left-nav {
+// 	font-weight: none;
+// 	font-size: 16px;
 // }
 
 // i:hover {
