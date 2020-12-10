@@ -12,13 +12,46 @@ body {
 	font-size: 12px;
 }
 
+span {
+	color: #555555;
+	font: $serif;
+	font-weight: bold;
+}
+
+.fa-cog:hover {
+	background-color: $light-gray;
+	border-radius: 3px;
+}
+
+nav.left-nav li:hover {
+	background-color: $light-gray;
+	border-radius: 3px;
+}
+
+// #search-modal-btn *:hover {
+// 	background-color: $light-gray;
+// }
+
+// .left-nav span:hover {
+// 	background-color: $light-gray;
+// }
+
+// i:hover {
+// 	background-color: $light-gray;
+// }
+
+// .right-nav:hover {
+// 	background-color: $light-gray;
+// }
+
+
 button {
-	background-color: black;
-	border-color: black;
-	// color:
+	background-color: $light-blue;
+	border-color: $dark-blue;
+	color: white;
 	font-weight: bold;
 	// padding:
-	// border-radius:
+	border-radius: 3px;
 	// transition:
 	// font-family:
 	// text-transform:
@@ -27,7 +60,7 @@ button {
 }
 
 button:hover {
-	// background-color:
+	background-color: $dark-blue
 	// border-color:
 }
 
