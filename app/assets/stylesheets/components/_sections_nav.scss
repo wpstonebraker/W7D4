@@ -4,7 +4,7 @@
     border-bottom: 1px solid lightgray;
 
     li {
-        padding: 5px 8px;
+        padding: 5px 12px;
 
         a:hover {
             background-color: $light-gray;
@@ -22,4 +22,9 @@
 
 .all-link:hover {
     text-decoration: underline;
+}
+
+.masthead-links .fas {
+    position: relative;
+    left: 3px
 }
