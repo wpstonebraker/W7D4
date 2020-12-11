@@ -47,6 +47,16 @@
 
 	li {
 		margin-left: 10px;
+		border-right: 1px solid $light-gray;
+		justify-content: center;
+	}
+
+	li:last-child {
+		border-right: none;
+
+		span {
+			color: green;
+		}
 	}
 
 	button {
@@ -55,7 +65,32 @@
 		color: #000;
 		font-weight: normal;
 		border: none;
+
+
+	// button#stockticker > p {
+	// 		color: green;
+	// 	}
 	}
+
+	#today-paper, #video {
+		text-transform: none;
+		
+		padding-left: none;
+	}
+
+
+	#temperature:hover, #stockticker:hover {
+		background: $light-gray;
+		text-decoration: none;
+	}
+
+	// i {
+	// 	padding-right: 0px;
+	// }
+
+	// i:hover {
+	// 	text-decoration: none;
+	// }
 
 	button:hover {
 		background-color: $lightest-gray;
@@ -75,4 +110,9 @@
 	strong {
 		color: green;
 	}
+
 }
+
+// #today-paper {
+// 	text-transform: none;
+// }
