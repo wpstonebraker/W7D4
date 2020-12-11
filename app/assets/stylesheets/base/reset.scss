@@ -5,17 +5,17 @@ ul, li, strong, main, button, i,
 section, img, div, h2, p, form,
 fieldset, label, input, textarea,
 span, article, footer, time, small {
-  margin: auto;
-  padding: auto;
-  border: inherit;
-  outline: inherit;
-  font: serif;
-  color: #555555;
-  text-align: left; 
-  text-decoration: none;
-  vertical-align: center;
+  margin: 0;
+  padding: 0;
+  border: 0;
+  outline: 0;
+  font: inherit;
+  color: inherit;
+  text-align: inherit; 
+  text-decoration: inherit;
+  vertical-align: inherit;
   box-sizing: inherit;
-  background: inherit;
+  background: transparent;
 }
 
 ol, ul {
@@ -24,7 +24,7 @@ ol, ul {
 
 img {
   display: block;
-  width: inherit;
+  width: 100%;
   height: auto;
 }
 
@@ -49,10 +49,9 @@ input[type="submit"] {
 }
 
 /* Clearfix */
-.clearfix {
-  overflow: auto;
-}
 
 .group:after {
-  // ...
+  content: "";
+  display: block;
+  clear: both;
 }
