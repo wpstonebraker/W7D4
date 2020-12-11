@@ -1,1 +1,42 @@
 // Use the gear_dropdown.png screenshot as a style guide
+
+// .right-nav > ul > li:last-of-type {
+//     position: relative;
+
+//     .gear-dropdown {
+//         position: absolute;
+//         display: none;
+//     }
+    
+//     .gear-dropdown:hover .drop-d {
+//         display: block;
+//     }
+
+//     .gear-dropdown .drop-d {
+//         background-color: green;
+//         display: block;
+//     }
+    
+// }
+
+
+#gear-dropdown-btn {
+    position: relative;
+    background-color: none;
+}
+
+#gear-dropdown-btn:hover .gear-dropdown {
+    display: block;
+}
+
+.gear-dropdown {
+    position: absolute;
+    display: none;
+    // top: 30px;
+    // right: 30px;
+    background-color: none;
+}
+
+button.gear-btn {
+    background-color: none;
+}
